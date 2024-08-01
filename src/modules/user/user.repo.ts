@@ -1,5 +1,5 @@
 import { Model } from 'mongoose';
-import { IUser, User } from '../../models/user.schema';
+import { IUser, User } from '../../../models/user.schema';
 import * as bcrypt from 'bcryptjs';
 
 export class UserRepository {

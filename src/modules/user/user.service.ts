@@ -1,7 +1,7 @@
 import * as jwt from 'jsonwebtoken';
 import * as bcrypt from 'bcryptjs';
 import { Request, Response } from 'express';
-import { UserRepository } from './user.repositories';
+import { UserRepository } from './user.repo';
 import { IUser, User } from '../../models/user.schema';
 
 export class UserService {

@@ -2,7 +2,7 @@ import { UserService } from '../modules/user/user.service';
 import * as express from 'express';
 import { verifyToken } from '../middleware/auth.middleware';
 import { UserController } from '../modules/user/user.controller';
-import { UserRepository } from '../modules/user/user.repositories';
+import { UserRepository } from '../modules/user/user.repo';
 import { User } from '../models/user.schema';
 const router = express.Router();
 const userRepository = new UserRepository(User);
